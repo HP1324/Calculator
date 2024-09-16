@@ -1,16 +1,8 @@
-# calculator
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Optimizations needed
+- Optimize ```toMathExpression(String str)``` function so that It works best with all cases(e.g.,with negative numbers)
+- There is no ``` . ``` button to add floating point numbers, that must be added.
+- Add button to clear only one letter, ```AC``` button clears whole field
+- Add validation so no ```+ - / * ``` can be written adjacently
+- Add scroll effect, when ```TextField``` is changed programmatically, it does not scroll when value goes out of it
+- Add these buttons : ``` 00  .  %  C```
+- Handle Range exceptions effectively
